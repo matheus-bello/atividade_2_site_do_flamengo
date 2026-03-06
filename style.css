@@ -1,13 +1,13 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(99, 2, 255);
+    background-color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
 #icon {
-    width: 60px;
+    width: 62px;
 }
 
 #links {
@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(7, 49, 98);
+    background-color: rgb(195, 39, 29);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -28,7 +28,7 @@ body {
     text-align: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgb(94, 138, 209);
+    background-color: rgb(195, 39, 29);
     padding: 6px;
     margin: 40px;
     border-radius: 40px;
@@ -38,7 +38,7 @@ body {
 .noticia {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
-    background-color: rgb(72, 155, 243);
+    background-color: rgb(180, 50, 40);
     border: 4px solid rgb(255, 255, 255);
 }
 
@@ -55,57 +55,51 @@ footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.barra-sticky{
+.barra-sticky {
     position: sticky;
     top: 0px;
-    background-color: rgb(192, 220, 238);
-    color: rgb(7, 49, 98);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 12px;
     font-weight: bold;
     text-align: center;
-    border-bottom: 4px solid rgb(7, 49, 98);
+    border-bottom: 4px solid rgb(0, 0, 0);
 }
 
-.posicao{
-    margin: 40px;
-    padding: 20px;
-    border-radius: 40px;
-    background-color: rgb(72, 155, 243);
-    color: white;
-}
+
 
 .pos-box{
     width: 420px;
     margin: 20px auto;
-    padding: 15px;
-    border: 4px solid white;
-    background-color: rgb(72, 155, 243);
-    color: white;
+    padding: 15px;   
+    color: rgb(255, 255, 255);
+
 }
 
 .pos-static{
-    position: static;
-    top: 40px;
-    left: 40px;
+position: static;
+top: 40px;
+left:40px;    
 }
 
 .pos-relative{
     position: relative;
     top: 20px;
     left: 30px;
-    background-color: rgb(255,221,0);
-    color: rgb(7, 49, 98);
+    background-color: rgb(255, 255, 255);
+    color:black;
 }
 
-.pai{
+.pai {
     width: 520px;
     height: 160px;
     margin: 20px auto;
     padding: 20px;
     border-radius: 20px;
-    border: 4px solid white;
-    background-color: rgb(0, 97, 187);
-    color: rgb(146, 162, 233);
+    border: 4px solid whitesmoke;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    color: whitesmoke;
     font-weight: bold;
 }
 
@@ -114,8 +108,40 @@ footer {
     right: 15px;
     bottom: 15px;
     padding: 8px 12px;
-    background-color: rgb(12, 0, 187);
-    color: antiquewhite;
-    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(241, 241, 241);
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 20px;
+}
+
+.img_Jogadores {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: top;
+}
+.escalacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: rgb(195, 39, 29);
+    color: white;
+}
+.time{
+    display: flex;
+     margin: 40px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: rgb(195, 39, 29);
+    color: white;
+}
+.Jogadores {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
 }
